@@ -90,6 +90,9 @@ body {
     font-weight: 200;
     cursor: pointer;
 }
+.container .card .divTitulo span:hover{
+    font-size: 2.05rem;
+}
 
 
 
@@ -125,11 +128,16 @@ body {
     width: 3.7rem;
     border: 0.5px solid rgb(184, 178, 178);        
 }
+.container .card .botonesFooter .botonCorazon:hover{
+    background-color: red;       
+}
+
 .container .card .botonesFooter .botonCorazon span{
     color: gray;
     font-size: 1.3rem;
     padding-right: 3%;
 }
+
 .container .card .botonesFooter .botonCorazon p{
     margin-top: 25%;
     color: gray;
@@ -147,6 +155,9 @@ body {
     height: 5vh;
     width: 4rem;
     border: 0.5px solid rgb(184, 178, 178);        
+}
+.container .card .botonesFooter .botonUp:hover{ 
+    background-color: red;        
 }
 .container .card .botonesFooter .botonUp span{
     color: gray;
