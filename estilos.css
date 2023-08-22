@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+/* ÍCONO IMAGEN */
+
+
+.container .img .iconoImg{
+    display: flex;
+    position: absolute;
+    left: 86%;
+    bottom: 37%;
+    width: 2.4rem;
+    height: 2.6vh;
+    border-radius: 15%;
+    background-color: rgb(206, 208, 209);
+    cursor: pointer;
+}
+.container .img .iconoImg:hover{
+    background-color: rgb(67, 69, 70);
+}
+
+.container .img .iconoImg p{
+    display: flex;
+    position: absolute;
+    font-size: 0.9rem;
+    width: 1rem;
+    height: 1vh;
+    left: 10%;
+    color: white;
+}
+
+.container .img .iconoImg .recuadro1{
+    display: flex;
+    position: absolute;
+    width: 1rem;
+    height: 1vh;
+    right: 10%;
+    top: 35%;
+    border-radius: 10%;
+    border: 0.5px solid white;
+}
+.container .img .iconoImg .recuadro2{
+    display: flex;
+    position: absolute;
+    width: 1rem;
+    height: 1vh;
+    right: 15%;
+    top: 30%;
+    border-radius: 10%;
+    background-color:  rgb(206, 208, 209);
+    border: 0.5px solid white;
+}
+.container .img .iconoImg .recuadro2:hover{
+    background-color:  rgb(67, 69, 70);
+}
+
+/* DIV - TÌTULO */
+
+.container .card .divTitulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.container .card .divTitulo p{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.container .card .divTitulo span{
+    color: blue;
+    font-size: 2rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+
+
+/* DIV - BOTONES FOOTER */
+
+
+.container .card .botonesFooter{
+   /*  background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .card .botonesFooter a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    font-size: 1rem;
+    height: 5vh;
+    font-weight: bold;
+}
+
+
+/* BOTÓN CORAZÓN */
+
+.container .card .botonesFooter .botonCorazon{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 9%;
+    background-color: white;
+    height: 5vh;
+    width: 3.7rem;
+    border: 0.5px solid rgb(184, 178, 178);        
+}
+.container .card .botonesFooter .botonCorazon span{
+    color: gray;
+    font-size: 1.3rem;
+    padding-right: 3%;
+}
+.container .card .botonesFooter .botonCorazon p{
+    margin-top: 25%;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+/* BOTÓN UPLOAD */
+
+.container .card .botonesFooter .botonUp{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 9%;
+    background-color: white;
+    height: 5vh;
+    width: 4rem;
+    border: 0.5px solid rgb(184, 178, 178);        
+}
+.container .card .botonesFooter .botonUp span{
+    color: gray;
+    font-size: 1.3rem;
+    padding-right: 3%;
+}
+.container .card .botonesFooter .botonUp p{
+    margin-top: 25%;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+
+
+
